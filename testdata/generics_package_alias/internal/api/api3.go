@@ -1,8 +1,7 @@
 package api
 
 import (
-	_ "github.com/swaggo/swag/v2/testdata/generics_package_alias/internal/path1/v1"
-	. "github.com/swaggo/swag/v2/testdata/generics_package_alias/internal/path2/v1"
+	_ "github.com/5999ft/swag/v2/testdata/generics_package_alias/internal/path1/v1"
 )
 
 // @Summary Create movie

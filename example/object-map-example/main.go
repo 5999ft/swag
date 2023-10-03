@@ -1,12 +1,12 @@
 package main
 
 import (
+	"github.com/5999ft/swag/v2/example/object-map-example/controller"
+	_ "github.com/5999ft/swag/v2/example/object-map-example/docs"
 	"github.com/gin-gonic/gin"
-	"github.com/swaggo/swag/v2/example/object-map-example/controller"
-	_ "github.com/swaggo/swag/v2/example/object-map-example/docs"
 
-	swaggerFiles "github.com/swaggo/files"
-	ginSwagger "github.com/swaggo/gin-swagger"
+	swaggerFiles "github.com/5999ft/files"
+	ginSwagger "github.com/5999ft/gin-swagger"
 )
 
 //	@title			Swagger Map Example API

@@ -3,9 +3,9 @@ package web
 import (
 	"time"
 
+	"github.com/5999ft/swag/v2/testdata/v3/simple/cross"
 	"github.com/gofrs/uuid"
 	"github.com/shopspring/decimal"
-	"github.com/swaggo/swag/v2/testdata/v3/simple/cross"
 )
 
 type Pet struct {
