@@ -160,6 +160,7 @@ func (ps *tagBaseFieldParserV3) complementSchema(schema *spec.Schema, types []st
 	field := &structFieldV3{
 		schemaType: types[0],
 		formatType: ps.tag.Get(formatTag),
+		enums:      schema.Enum,
 	}
 
 	if len(types) > 1 && (types[0] == ARRAY || types[0] == OBJECT) {
